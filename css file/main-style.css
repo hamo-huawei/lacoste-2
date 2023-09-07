@@ -1,0 +1,99 @@
+* {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    min-height: 560px;
+    background-color: #b3be80;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* for icon width  */
+.icon {
+    width: 20px
+}
+
+.content {
+    width: 50%;
+    height: 315px;
+    display: flex;
+}
+
+.left {
+    background-image: url(../images/image-product-desktop.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.right {
+    width: 50%;
+    background-color: #fff;
+    padding: 15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.right .p-1 {
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    color: #919152;
+}
+
+.right h1 {
+    font-size: 27px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.right .p-2 {
+    font-size: 15px;
+    color: #939366;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.right .price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.right .price h2 {
+    color: #0b6b0b;
+    letter-spacing: 2px;
+}
+
+.right button {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #1a6f1a;
+    padding: 13px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 16px;
+    border-radius: 14px;
+    transition: all 0.3s;
+    margin-top: 10px
+}
+.right button:hover{
+    background-color: transparent;
+    color: #095e09;
+    border: 1px solid #095e09;
+}
